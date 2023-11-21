@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2, quotient;
+    
+    printf("Enter numerator: ");
+    scanf("%f", &num1);
+    
+    printf("Enter denominator: ");
+    scanf("%f", &num2);
+    
+    quotient = num1 / num2;
+    
+    printf("Quotient: %.2f\n", quotient);
+    
+    return 0;
+}
