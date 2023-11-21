@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main() 
+{
+ float a,b,sub;
+ printf("Enter two numbers: "); 
+ scanf("%f%f",&a,&b); 
+ sub=a-b; 
+ printf("The result is = %f",sub); 
+ return 0;
+}
